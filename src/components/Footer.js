@@ -1,22 +1,22 @@
 import React from 'react'
-import InstagramIcon from "@material-ui/icons/Insagram"
-import TwitterIcon from "@material-ui/icons/Twitter"
-import FacebookIcon from "@material-ui/icons/Facebook"
-import WhatsappIcon from "@material-ui/icons/Whatsapp"
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import GitHubIcon from "@material-ui/icons/GitHubIcon"
+import FaInstagram from "react-icons"
+import FaTwitter from  "react-icons"
+import FaFacebook from "react-icons"
+import FaWhatsapp from "react-icons"
+import FaLinkedIn from "react-icons"
+import FaGitHub from "react-icons"
 import "../styles/Footer.css"
 
 function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <InstagramIcon />
-            <TwitterIcon />
-            <FacebookIcon />
-            <WhatsappIcon />
-            <LinkedInIcon />
-            <GitHubIcon   />
+            <FaInstagram />
+            <FaTwitter />
+            <FaFacebook />
+            <FaWhatsapp />
+            <FaLinkedIn />
+            <FaGitHub  />
         </div>
         <p>&copy; 2022 godmantech.com</p>
     </div>

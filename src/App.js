@@ -6,16 +6,17 @@ import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay"
+
 function App(){
     return(
         <div className="App">
             <Router>
                 <Navbar />
                 <Routes>
-                    <Route path="/home" element={<Home />}/>
-                    <Route path="/experience" element={<Experience />}/>   
+                    <Route path="/home" element={<Home />}/>   
                     <Route path="/projects" element={<Projects />}/>
-                    <Route path="/project/:id" element={ProjectDisplay}/>
+                    <Route path="/experience" element={<Experience />}/>
+                    <Route path="/project/:id" element={<ProjectDisplay />}/>
                 </Routes>
                 <Footer />
             </Router>

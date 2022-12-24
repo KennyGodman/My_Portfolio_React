@@ -21,3 +21,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
+.projects h1{
+    font-size: 40px;
+}

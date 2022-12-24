@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import {Link, useLocation} from "react-router-dom";
 import "../styles/Navbar.css";
 
-import FaReorder from "react-icons";
+import {IoMdReorder} from "react-icons/io";
 
 
 function Navbar() {
@@ -17,7 +17,7 @@ function Navbar() {
     <div className="navbar" id={expandNavbar? "open" : "close"}>
         <div className="toggleButton">
             <button onClick={()=> {setExpandNavbar((prev)=> !prev)}}>
-              <FaReorder />
+              <IoMdReorder />
             </button>
         </div>
         <div className="links">

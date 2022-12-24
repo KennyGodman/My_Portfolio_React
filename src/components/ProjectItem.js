@@ -7,10 +7,10 @@ function ProjectItem({image, name, id}) {
     <div className='projectItem' onClick={()=> {
         navigate("/project/" + id);
     }}>
-    <div style={{backgroundImage: `url(${image})`}} />
+    <div style={{backgroundImage: `url(${image})`}} className="bgImage" />
     <h1>{name}</h1>
     </div>
   )
 }
 
-export default ProjectItem
+export default ProjectItem; 

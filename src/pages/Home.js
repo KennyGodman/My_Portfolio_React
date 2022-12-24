@@ -1,19 +1,21 @@
 import React from 'react'
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import GitHubIcon from "@material-ui/icons/GitHubIcon"
-import EmailIcon from "@material-ui/icons/Email" 
+import {AiFillLinkedin} from "react-icons/ai"
+import {AiFillGithub} from "react-icons/ai"
+import{AiOutlineMail} from "react-icons/ai"
+import "../styles/Home.css";
 
 function Home () {
   return (
     <div className='home'>
-      <div className='about'></div>
-      <h2> Hi, My Name is Odubunmi Kehinde Daniel a.k.a Godman</h2>
+      <div className='about'>
+      <h2> Hi, My Name is Odubunmi Kehinde Daniel a.k.a Godman</h2></div>
       <div className='display'>
         <p>A software engineer who is interested in creating solutions to problems
         </p>
-        <LinkedInIcon />
-        <EmailIcon  />
-        <GitHubIcon />
+        <div className='stackImages'>
+        <AiFillLinkedin />
+        <AiOutlineMail />
+        <AiFillGithub /></div>
       </div>
       <div className='skills'></div>
       <h1>Skills</h1>

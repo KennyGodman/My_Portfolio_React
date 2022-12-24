@@ -1,39 +1,40 @@
-import projectitem1 from '../assets/projectitem1.jpg'
-import projectitem2 from '../assets/projectitem2.jpg' 
-import projectitem3 from '../assets/projectitem3.jpg'
-import projectitem4 from '../assets/projectitem4.jpg' 
-import projectitem5 from '../assets/projectitem5.jpg'
-import projectitem6 from '../assets/projectitem6.jpg' 
+import Pro1 from '../assets/Pro1.jpg'
+import Pro2 from '../assets/Pro2.jpg' 
+import Pro3 from '../assets/Pro3.jpg'
+import Pro4 from '../assets/Pro4.jpg' 
+import Pro5 from '../assets/Pro5.jpg'
+import Pro6 from '../assets/Pro6.jpg' 
 
 
-export const projectList= [
+export const ProjectList= [
     {
         name: "First Project",
-        image: projectitem1,
+        image: Pro1,
         skills: "HTML, CSS"    },
     {
         name: "Second Project",
-        image: projectitem2,
+        image: Pro2,
         skills: "React and Tailwind"
     },
     {
         name: "Third Project",
-        image: projectitem3,
+        image: Pro3,
         skills: "Javascript and Bootstrap"
     },
     {
         name: "Fourth Project",
-        image: projectitem4,
+        image: Pro4,
         skills: "MungoDB MySQL"
     },
     {
         name: "Fifth Project",
-        image: projectitem5,
+        image: Pro5,
         skills: "Python and Django"
     },
     {
         name: "Six Project",
-        image: projectitem6,
+        image: Pro6,
         skills: "Springboot and Java"
     }
 ]
+

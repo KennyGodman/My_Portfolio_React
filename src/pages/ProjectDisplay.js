@@ -1,6 +1,7 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
-import FaGitHub from "react-icons"
+import { ProjectList } from '../helpers/ProjectList'
+import {AiFillGithub} from "react-icons/ai"
 import "../styles/ProjectDisplay.css"
 
 function ProjectDisplay() {
@@ -11,7 +12,7 @@ function ProjectDisplay() {
         <h1>{project.name}</h1>
         <img src={project.image} />
         <p><b>Skills:</b> {project.skills}</p>
-        <GitHubIcon />
+        < AiFillGithub />
     </div>
   )
 }

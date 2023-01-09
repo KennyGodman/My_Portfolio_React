@@ -10,11 +10,11 @@ import { GiPostOffice } from "react-icons/gi";
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="##4A4AFA">
+      <VerticalTimeline lineColor="#DE0202">
         <VerticalTimelineElement
           className="vertical-timeline-element-education"
           date="2010-2014"
-          iconStyle={{ background: "##4A4AFA", color: "#DE0202" }}
+          iconStyle={{ background: "#4A4AFA", color: "#DE0202" }}
           icon={<FaSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -25,7 +25,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element-education"
           date="2014-2019"
-          iconStyle={{ background: "##4A4AFA", color: "#DE0202" }}
+          iconStyle={{ background: "#4A4AFA", color: "#DE0202" }}
           icon={<FaSchool />}
         >
           <h3 className="vertical-timeline-elementtitle">
@@ -47,7 +47,7 @@ function Experience() {
           </h3>
           <h4 className="vertical-timeline-elementsub-title">Yaba, Lagos</h4>
           <p>
-            I was part of the front-end tean that participated in working on
+            I was part of the front-end team that participated in working on
             different social projects.
           </p>
         </VerticalTimelineElement>
